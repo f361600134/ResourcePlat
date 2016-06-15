@@ -13,7 +13,7 @@ public class HomeController {
 	 * yourProjectName/admin/home
 	 * @return
 	 */
-	@RequestMapping(value = "index", method = RequestMethod.GET)
+	@RequestMapping(value = "home", method = RequestMethod.GET)
 	public ModelAndView index() {
 		ModelAndView mav = new ModelAndView("home");
 		return mav;
